@@ -165,7 +165,8 @@ if __FILE__ == $0
     puts "<script src='#{pkg.url}'></script>"
 
   when Params['url', 'u']
-    puts pkg.url
+    name = ARGV.shift  or invalid_usage("cdnjs url NAME")
+    puts get_package(name).url
 
   when Params['info', 'i']
     name = ARGV.shift  or invalid_usage("cdnjs info NAME")
