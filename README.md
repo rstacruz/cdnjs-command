@@ -17,6 +17,10 @@ Or you may want just the URL:
     $ cdnjs url underscore
     http://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.4/underscore-min.js
 
+## Installation
+
+Copy `bin/cdnjs` into your PATH somewhere, or use `gem install cdnjs-command`.
+
 ## Usage
 
     Usage:
