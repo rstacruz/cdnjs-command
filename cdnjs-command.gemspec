@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.email = ["rico@sinefunc.com"]
   s.homepage = "http://github.com/rstacruz/cdnjs-command"
   s.files = ["bin/cdnjs", "HISTORY.md", "README.md"]
+  s.executables = ["cdnjs"]
 
   s.add_dependency "json"
 end
