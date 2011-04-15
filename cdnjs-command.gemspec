@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "cdnjs-command"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
   s.summary = %{Command line helper for cdnjs.com.}
   s.description = %Q{This package lets you download the popular JavaScript packages with one command, thanks to www.cdnjs.com.}
   s.authors = ["Rico Sta. Cruz"]

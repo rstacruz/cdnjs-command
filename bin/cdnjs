@@ -3,7 +3,7 @@ require 'open-uri'
 require 'fileutils'
 require 'json'
 
-CDNJS_VERSION = "0.0.2"
+CDNJS_VERSION = "0.0.3"
 
 module Params;
   def extract(what)   i = index(what) and slice!(i, 2)[1] end;
