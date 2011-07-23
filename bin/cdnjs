@@ -2,10 +2,15 @@
 
 require File.expand_path('../../lib/cdnjs_command', __FILE__)
 
+Package = CdnjsCommand::Package
+Fetcher = CdnjsCommand::Fetcher
+Params  = CdnjsCommand::Params
+
+extend CdnjsCommand::Helpers
 ARGV.extend Params
 
 # ============================================================================
-# Le controller
+# Controller
 
 case ARGV
 when Params['-h', '--help']
