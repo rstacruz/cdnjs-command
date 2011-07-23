@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'cdnjs_command'
+require File.expand_path('../../lib/cdnjs_command', __FILE__)
 
 ARGV.extend Params
 
