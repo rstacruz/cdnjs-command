@@ -23,7 +23,7 @@ class CdnjsCommand::Package
     if @filename =~ /^http/
       @filename
     else
-      "http://ajax.cdnjs.com/ajax/libs/#{data['name']}/#{version}/#{@filename}"
+      "http://cdnjs.cloudflare.com/ajax/libs/#{data['name']}/#{version}/#{@filename}"
     end
   end
 
