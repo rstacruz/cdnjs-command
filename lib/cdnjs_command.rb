@@ -2,7 +2,7 @@ require 'open-uri'
 require 'fileutils'
 require 'json'
 
-CDNJS_VERSION = "0.0.4"
+CDNJS_VERSION = "0.0.5"
 
 module CdnjsCommand
   autoload :Params,  File.expand_path('../cdnjs_command/params', __FILE__)

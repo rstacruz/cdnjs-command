@@ -1,3 +1,8 @@
+v0.0.5 - Jul 24, 2011
+---------------------
+
+Update base URL to the new `cloudflare.com` URL.
+
 v0.0.4 - Jul 24, 2011
 ---------------------
 
