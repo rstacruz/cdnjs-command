@@ -1,6 +1,8 @@
 module CdnjsCommand::Fetcher
   CACHE_PATH = "~/.cache/cdnjs"
 
+  extend CdnjsCommand::Helpers
+
   def self.fetch(url)
     return cache_for(url)  if cached?(url)
 
