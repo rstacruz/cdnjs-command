@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = ["rico@sinefunc.com"]
   s.homepage = "http://github.com/rstacruz/cdnjs-command"
   s.files = Dir["{bin,lib,test}/**/*", "*.md", "Rakefile"].reject { |f| File.directory?(f) }
-  s.executables = ["cdnjs"]
+  s.executables = Dir["bin/*"].map { |f| File.basename(f) }
 
   s.add_dependency "json"
 end
