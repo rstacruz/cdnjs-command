@@ -19,7 +19,9 @@ Or you may want just the URL:
 
 ## Installation
 
-Copy `bin/cdnjs` into your PATH somewhere, or use `gem install cdnjs-command`.
+This is a Ruby gem that requires Ruby 1.8+.
+
+    $ gem install cdnjs-command
 
 ## Usage
 
