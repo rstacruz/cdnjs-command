@@ -31,9 +31,9 @@ class CdnjsCommand::Package
   def self.all
     packages = JSON.parse(fetch(INDEX_URL))['packages']
     packages.delete(Hash.new)
-    packages
-      .map { |hash| Package.new(hash) }
-      .sort_by { |pkg| pkg.name }
+    packages.
+      map { |hash| Package.new(hash) }.
+      sort_by { |pkg| pkg.name }
   end
 
   def self.fetch(url)
